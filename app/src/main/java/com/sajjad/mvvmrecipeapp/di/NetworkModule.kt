@@ -16,7 +16,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object AppModule {
+object NetworkModule {
 
     @Provides
     @Singleton
@@ -33,7 +33,7 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideTimeOutValue(): Long {
+    fun provideTimeoutValue(): Long {
         return 30L
     }
 

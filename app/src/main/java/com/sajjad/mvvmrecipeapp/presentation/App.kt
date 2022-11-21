@@ -1,6 +1,7 @@
-package com.sajjad.mvvmrecipeapp
+package com.sajjad.mvvmrecipeapp.presentation
 
 import android.app.Application
+import com.sajjad.mvvmrecipeapp.BuildConfig
 import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
 
